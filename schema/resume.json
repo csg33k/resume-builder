@@ -1,1 +1,125 @@
-# Place Holder
+{
+    "contact": 
+    {
+        "address" : 
+        {
+            "street_num" : "123", 
+            "street_direction" : "East",
+            "street_name": "Jefferson Road",
+            "unit_number": "1400",
+            "city" : "city",
+            "state_province" : "state",
+            "postal_code" :  "123456"
+        },
+        "home_number" : "1234567890", 
+        "cell_number" : "1234567890",
+        "pager_number" : "1234567890",
+        "phone_format": "mode1",
+        "contry_code" : "1",
+        "show_contry_code" : true,
+        "email": "user@email.com",
+        "alternative_email" : "user@other.com"
+    },
+
+    "education_history" :
+    [
+       {
+           "academic_institution" : "University of Penguins",
+           "degree_acquired": "tuxology",
+           "graduation_date": "YYYYMM",
+           "start_date" : "YYYYMM",
+           "bullet_points" : 
+           [
+             "Emphasis : parallel processing computing"
+           ]
+       },
+       {
+           "academic_institution" : "University of Penguins",
+           "degree_acquired": "tuxology",
+           "graduation_date": "YYYYMM",
+           "bullet_points" : 
+           [
+             "Emphasis : parallel processing computing",
+             "something else"
+           ]
+       }
+    ],
+    "job_history" :
+    [
+       {
+           "company_name":  "foobar inc.",
+           "company_city" : "city",
+           "company_state" : "state",
+           "position_name" : "super computer guy",
+           "start_date" : "YYYYMM",
+           "end_date" : "YYYYMM",
+           "accomplishments" :
+           [
+              "item1",
+              "item2",
+              "item3"
+           ]
+       },
+       {
+           "company_name":  "the real foobar inc.",
+           "company_city" : "city",
+           "company_state" : "state",
+           "position_name" : "super computer guy",
+           "start_date" : "YYYYMM",
+           "end_date" : "YYYYMM",
+           "accomplishments" :
+           [
+              "item1",
+              "item2",
+              "item3"
+           ]
+       }
+    ],
+    "Additional_Sections" :
+    [
+       {
+           "section_title" : "Organizations",
+           "section_data" : 
+           [
+              {
+               "record_title" : "LUG President",
+               "record_start_date" : "YYYYMM", 
+               "record_end_date" : "YYYYMM", 
+               "items":
+                  [
+                     "did X",
+                     "did Y" 
+                  ]
+              },
+              {
+               "record_title" : "ACM Mascott",
+               "record_start_date" : "YYYYMM", 
+               "record_end_date" : "YYYYMM", 
+               "items" : 
+                  [
+                     "did X",
+                     "did Y" 
+                  ]
+              }
+           ]
+       },
+       {
+           "section_title" : "References",
+           "section_data" : 
+           [
+                {
+                  "record_type" : "contact",
+                  "record_name" : "Joe Bob",
+                  "record_email" : "user@email.com",
+                  "record_phone" : "user@phone.com"
+                },
+                {
+                  "record" : "contact",
+                  "record_name" : "Jane Bob",
+                  "record_email" : "user@email.com",
+                  "record_phone" : "user@phone.com"
+                }
+           ]
+       }
+    ]
+}
